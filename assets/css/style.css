@@ -9,7 +9,7 @@
 .container {
   width: 90%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
 header {
@@ -56,7 +56,7 @@ nav a {
   height: 95vh;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/assets/img/banner.jpg");
+    url("./assets/img/banner.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -75,13 +75,13 @@ section h1 {
     text-align: center;
 }
 
-.card {
+.speaker-cards .card {
     border: 1px solid #E5E7EB;
     border-radius: 12px;
 
 }
 
-.card p, .card h3 {
+.speaker-cards p, .speaker-cards h3 {
     padding: 8px 24px;
 }
 
@@ -101,4 +101,25 @@ section h1 {
 
 .speaker-info {
     color: #575757;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.sub-heading {
+  text-align: center;
+  color: #575757;
+}
+
+.pricing-cards .plan-name {
+  color: #888888;
+}
+
+.pricing-cards .plan-price {
+  font-size: 48px;
+  color: #0D1B2A;
+  font-weight: bold;
 }
