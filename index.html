@@ -7,31 +7,39 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <header class="container">
-      <div class="logo">
-        <img src="./assets/img/logo.png" alt="DevConf 2026 Logo" />
+    <header>
+      <div class="nav container">
+        <div class="logo">
+          <a href="/"
+            ><img src="./assets/img/logo.png" alt="DevConf 2026 Logo"
+          /></a>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Speakers</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Tracks</a></li>
+            <li><a href="#">Venue</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </nav>
+        <a href="#"><button class="primary-btn">Register Now</button></a>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#">Speakers</a></li>
-          <li><a href="#">Schedule</a></li>
-          <li><a href="#">Tracks</a></li>
-          <li><a href="#">Venue</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </nav>
-      <a href="#"><button class="primary-btn">Register Now</button></a>
     </header>
 
     <div class="hero-section">
       <div class="hero-elements container">
-        <h1>Code. <em>Connect.</em> Create</h1>
-        <p>
-          Join 4,000+ engineers, founders, and builders at the premier developer
-          conference of 2026. Three days of cutting-edge talks, hands-on
-          workshops, and meaningful connections.
-        </p>
-        <button class="primary-btn"><a href="#">Register Now</a></button>
+        <div class="hero-text">
+          <h1>Code. <em>Connect</em>. Create</h1>
+          <p>
+            Join 4,000+ engineers, founders, and builders at the premier
+            developer conference of 2026. Three days of cutting-edge talks,
+            hands-on workshops, and meaningful connections.
+          </p>
+        </div>
+        <div class="hero-btn">
+          <button class="primary-btn"><a href="#">Register Now</a></button>
+        </div>
       </div>
     </div>
     <section>
@@ -68,15 +76,15 @@
       </div>
     </section>
 
-    <section class="container">
+    <section>
       <h1>Secure Your Spot</h1>
       <p class="sub-heading">Early-bird pricing ends August 15, 2026.</p>
-      <div class="pricing-cards">
+      <div class="pricing-cards container">
         <div class="card">
           <div class="plan-name">Standard</div>
           <div class="plan-price">$399</div>
           <p class="plan-text">per person</p>
-          <hr>
+          <hr />
           <ul class="plan-features">
             <li>Access to all 3 conference days</li>
             <li>48 curated technical talks</li>
@@ -84,14 +92,14 @@
             <li>Networking lunch & coffee breaks</li>
             <li>Conference swag bag</li>
             <li>Digital recordings (30 days)</li>
-            <button class="secondary-btn"><a href="#">Get Standard</a></button>
           </ul>
+          <a href="#"><button class="secondary-btn">Get Standard</button></a>
         </div>
         <div class="card featured">
           <div class="plan-name">Pro</div>
           <div class="plan-price">$749</div>
           <p class="plan-text">per person</p>
-          <hr>
+          <hr />
           <ul class="plan-features">
             <li>Everything in Standard</li>
             <li>Unlimited workshop access</li>
@@ -100,13 +108,13 @@
             <li>Lifetime recording access</li>
             <li>1-on-1 mentorship (30 min)</li>
           </ul>
-          <button class="primary-btn"><a href="#">Get Pro</a></button>
+          <a href="#"><button class="primary-btn">Get Pro</button></a>
         </div>
         <div class="card">
           <div class="plan-name">Team</div>
           <div class="plan-price">$5,999</div>
           <p class="plan-text">up to 10 people</p>
-          <hr>
+          <hr />
           <ul class="plan-features">
             <li>Everything in Pro (10 seats)</li>
             <li>Dedicated team lounge access</li>
@@ -115,9 +123,63 @@
             <li>Recruitment booth (1 day)</li>
             <li>Priority customer support</li>
           </ul>
-          <button class="custom-btn"><a href="#">Contact Us</a></button>
+          <a href="#"><button class="custom-btn">Contact Us</button></a>
         </div>
       </div>
     </section>
+    <section class="faq">
+      <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-area">
+          <details>
+            <summary>Who can attend the DevConf?</summary>
+            <p>
+              Anyone who is interested in Software Development can join. It
+              doesn't matter whether you're a beginner or a professional.
+            </p>
+          </details>
+          <details>
+            <summary>Will there be recordings of the sessions?</summary>
+            <p>
+              Yes. The recordings will be send to your email address after the
+              DevConf within 7 days.
+            </p>
+          </details>
+          <details>
+            <summary>How can I register?</summary>
+            <p>
+              Choose your preferred plan from the pricing section and register
+              using your email address. A digital ticket will be send to your
+              email once the registration is complete.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-area container">
+        <div class="left">
+          <img src="./assets/img/footer-logo.png" alt="DevConf 2026 Logo" />
+        </div>
+        <div class="right">
+          <a href="#"
+            ><span class="icon"
+              ><img src="./assets/img/facebook.svg" alt="Facebook Icon" /></span
+          ></a>
+          <a href="#"
+            ><span class="icon"
+              ><img
+                src="./assets/img/instagram.svg"
+                alt="Instagram Icon" /></span
+          ></a>
+          <span class="icon"
+            ><img src="./assets/img/x.svg" alt="X Icon"
+          /></span>
+          <a href="#"></a>
+        </div>
+      </div>
+      <hr />
+      <div class="copyright">© 2026 DevConf. All rights reserved.</div>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,2 @@
+1. I am making a webpage for a DevConf I have currently the Hero Section, Speakers Section, Pricing Section and a footer. What can I add between the Pricing Section and the footer?
+2. Can I create collapsible FAQ Section using HTML and CSS
